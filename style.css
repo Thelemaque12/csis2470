@@ -1,0 +1,32 @@
+main {
+    margin: 1.5rem;
+  }
+  
+  ul {
+  
+    width: 70vw;
+    padding: 0;
+    margin: 2.5rem auto;
+  }
+  
+  .form-group {
+    margin: 1rem;
+  }
+  
+  .person {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 70vw
+  }
+  
+  .person > span {
+    width: calc(70vw / 3);
+    text-align: left;
+  } 
+  
+  .person.header { 
+    font-weight: 700;
+    border-bottom: 0.2rem solid var(--body-text);
+    margin-bottom: 0.2rem;
+  }
